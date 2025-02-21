@@ -1,8 +1,9 @@
+![image](https://github.com/user-attachments/assets/28f45572-735d-45f4-852a-b83510cb4062)
+
 # Bank Customer Churn Prediction with Advanced Machine Learning & Streamlit 💡💵
 This project predicts whether a bank customer will churn (leave) or stay using cutting-edge machine learning techniques. It includes comprehensive data preprocessing, advanced model training, and a sleek Streamlit web application for real-time predictions.
 
 ![image](https://github.com/user-attachments/assets/e82f59b6-b849-40d2-9dff-377d662a0b81)
-
 
 # 📚 Table of Contents
 1. Overview
@@ -16,6 +17,8 @@ This project predicts whether a bank customer will churn (leave) or stay using c
 
 # 🔍 Overview
 Customer churn prediction is crucial for financial institutions to enhance customer retention and profitability. This project leverages a robust machine learning pipeline featuring XGBoost, LightGBM, and Neural Networks for high-accuracy predictions. It also provides an intuitive Streamlit web app for live customer churn predictions.
+![image](https://github.com/user-attachments/assets/28eff584-7bea-4b58-b34e-884217cf5873)
+
 
 # 🛠 Setup and Installation
 Prerequisites:  
@@ -39,6 +42,9 @@ streamlit run app/streamlit_app.py
 Enter customer details in the web form and click Predict for instant feedback:  
 🚨 Exit: Customer likely to churn.  
 ✅ No Exit: Customer likely to stay.  
+
+![image](https://github.com/user-attachments/assets/7c9d5d25-52a0-4b44-804a-610981562ad0)
+
   
 # 🎯 Features
 ## 🤖 Machine Learning Pipeline
@@ -60,6 +66,7 @@ Clean UI with dynamic feedback:
 F1 Score: 0.86  
 AUC-ROC Score: 0.91  
 Real-time prediction capability via Streamlit.  
+
   
 # 🖥 Technologies Used
 Languages & Frameworks: Python (Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Keras)    
