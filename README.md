@@ -1,6 +1,9 @@
 # Bank Customer Churn Prediction with Advanced Machine Learning & Streamlit 💡💵
 This project predicts whether a bank customer will churn (leave) or stay using cutting-edge machine learning techniques. It includes comprehensive data preprocessing, advanced model training, and a sleek Streamlit web application for real-time predictions.
 
+![image](https://github.com/user-attachments/assets/e82f59b6-b849-40d2-9dff-377d662a0b81)
+
+
 # 📚 Table of Contents
 1. Overview
 2. Project Structure
