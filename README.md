@@ -62,7 +62,7 @@ Clean UI with dynamic feedback:
 🟥 Exit (Red): High churn risk  
 🟩 No Exit (Green): Low churn risk  
 📈 Results  
-## Best Model: XGBoost with 89% accuracy on the test set.  
+## Best Model: RF with 87% accuracy on the test set.  
 F1 Score: 0.86  
 AUC-ROC Score: 0.91  
 Real-time prediction capability via Streamlit.  
@@ -78,3 +78,46 @@ Other Tools: Git, Jupyter Notebook
 # 🤝 Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests.  
 Let me know if you’d like Python code snippets for specific sections (e.g., XGBoost training, Streamlit app) or want to explore deployment options like Heroku or AWS EC2. 🚀💡  
+
+# 🚀 Developing an AI-Driven Solution for #BankCustomerChurnPrediction!
+
+I'm excited to present my latest addition to the Machine Learning Series: Bank Customer Churn Prediction 🏦📊. This project was a remarkable experience, exploring data preprocessing, feature engineering, and advanced machine learning methods to address a crucial business challenge—predicting whether a customer will stay with the bank or churn.
+
+# 🌟 Key Highlights
+📌 Dataset:  
+The dataset comprised customer demographics, account information, and behavioral attributes.  
+
+# 📌 Preprocessing Steps:
+Dropped non-informative columns like RowNumber, CustomerId, and Surname that had no predictive significance.  
+Performed one-hot encoding on categorical features (Geography and Gender), ensuring the dummy variable trap was avoided.  
+Scaled numerical features such as CreditScore, Balance, and EstimatedSalary for consistency across the dataset.  
+# 📌 Insights Gained:
+Identified data imbalance in churn distribution, with fewer customers leaving compared to those staying (SMOTE was used to balance the dataset).  
+Key predictors included Age, Tenure, and Balance, as identified through a correlation matrix analysis.  
+# 📌 Model Development:
+Trained and evaluated multiple classification models:  
+Logistic Regression  
+Random Forest  
+Gradient Boosting  
+## 🏆 Random Forest delivered the best performance with 87% accuracy, balancing precision and recall effectively.  
+
+# 📌 GUI for Real-Time Predictions:
+Built an interactive GUI using Tkinter for user-friendly predictions.  
+Users can input customer details and receive instant predictions on churn risk.  
+Visual feedback integrated with clear labels:  
+🔴 Exit: Customer likely to churn.  
+🟢 Stay: Customer likely to remain.  
+# 📌 Business Impact:  
+Proactively identifies customers at risk of leaving.  
+Supports targeted retention strategies, potentially saving millions in acquisition costs.  
+# 📌 Key Findings:  
+📊 Older customers and those with high balances but low engagement are more likely to churn.  
+📊 Geography and gender significantly influence churn probability, emphasizing the need for localized strategies.  
+
+# 💡 Key Takeaways
+This project sharpened my technical skills and enhanced my understanding of customer behavior in real-world scenarios. I gained practical experience in:  
+
+Managing imbalanced datasets  
+Applying feature scaling techniques  
+Developing user-friendly ML applications  
+# 🚀💡 This journey into AI-powered churn prediction highlighted how machine learning can drive strategic decision-making in the banking sector.  
