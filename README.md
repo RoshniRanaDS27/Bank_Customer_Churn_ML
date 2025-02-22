@@ -54,7 +54,7 @@ Multiple ML models tested:
 XGBoost  
 LightGBM  
 Neural Networks (Keras)  
-XGBoost selected as the best model with 89% accuracy.  
+RF selected as the best model with 87% accuracy.  
   
 # 🌟 Interactive Web App
 Developed using Streamlit for real-time, web-based predictions.    
